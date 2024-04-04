@@ -23,10 +23,10 @@ class ViaControls {
 
 	//@{
 	/// Circular buffers used for boxcar averaging.
-	longBuffer knob1Buffer;
-	longBuffer knob2Buffer;
-	longBuffer knob3Buffer;
-	longBuffer cv1Buffer;
+	longBuffer knob1Buffer = {};
+	longBuffer knob2Buffer = {};
+	longBuffer knob3Buffer = {};
+	longBuffer cv1Buffer = {};
 	//@}
 
 //@{

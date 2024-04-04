@@ -433,7 +433,7 @@ public:
 	uint32_t clockDiv = 0;
 	uint32_t skipPll = 0;
 	int32_t pllNudge = 0;
-	buffer nudgeBuffer;
+	buffer nudgeBuffer = {};
 	int32_t nudgeSum = 0;
 
 	uint32_t phaseSignal = 0;
@@ -495,7 +495,7 @@ public:
 
 	// average tap tempo
 	int32_t lastTap = 0;
-	buffer tapStore;
+	buffer tapStore = {};
 	int32_t tapSum = 0;
 
 	int32_t simultaneousTrigFlag = 0;
